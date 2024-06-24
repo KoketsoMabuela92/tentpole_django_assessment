@@ -1,0 +1,22 @@
+<!-- customer/customer_detail.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Detail</title>
+</head>
+<body>
+    <h1>Customer Details - {{ customer.first_name }} {{ customer.last_name }}</h1>
+
+    <!-- Display customer details -->
+    <p>Date of Birth: {{ customer.date_of_birth }}</p>
+
+    <!-- Display the plot -->
+    <h2>Income and Expenditure Over Time</h2>
+    <img src="data:image/png;base64,{{ plot_data }}" alt="Income and Expenditure Plot">
+</body>
+</html>
+
+
+
