@@ -40,7 +40,7 @@ This project is containerized using Docker for easy deployment and scalability a
 
    ```bash
    git clone https://github.com/KoketsoMabuela92/tentpole_django_assessment.git
-   cd customer-workflow
+   cd tentpole_django_assessment
    
 2. **Build the Docker image:**
 
